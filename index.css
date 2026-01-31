@@ -1,0 +1,36 @@
+.title-shadow {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.animate-title {
+    animation: fadeInDown 1s ease-in-out;
+}
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.btn{
+    transition: transform 0.2s , box-shadow 0.2s ease;
+}
+.btn:hover {
+    transform:scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+    }
+    .footer-custom {
+  background: linear-gradient(135deg, #111, #1c1c1c);
+  border-top: 3px solid #ffc107;
+}
+
+.footer-custom i {
+  font-size: 1.1rem;
+}
+
+.footer-custom p {
+  margin-bottom: 0.3rem;
+}
